@@ -1,10 +1,13 @@
-# FPoperatorDE
-Estimating Frobenius-Perron operator by Density Estimation Methods
-This repository contains MATLAB code for estimating the Frobenius-Perron operator using density estimation methods.
+# Estimating Frobenius-Perron Operator by Density Estimation Methods
 
-# Getting Started
-To use this code, clone the repository to your local machine:
-git clone https://github.com/yourusername/your-repo.git
-# Prerequisites
-To run this code, you need MATLAB installed on your machine.
-# Usage
+In these files, we demonstrate the estimation of the Frobenius-Perron operator for the logistic map example using the following methods:
+
+1. `RunnerHist.m`: Histogram density estimation
+2. `RunnerKDE.m`: Kernel density estimation
+
+We also provide an analysis of the mean squared error upper bound for the logistic map example in the `RunnerUBanalysis.m` file.
+
+## Usage
+
+1. Run `RunnerHist.m` or `RunnerKDE.m` to estimate the Frobenius-Perron operator using the respective method.
+2. Run `RunnerUBanalysis.m` to analyze the mean squared error upper bound for the logistic map example.
